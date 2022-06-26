@@ -1,6 +1,6 @@
 // kolo2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+///////to jest nowy commit 1111
 #include <iostream>
 
 #include<iostream>
