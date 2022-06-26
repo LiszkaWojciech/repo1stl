@@ -1,7 +1,7 @@
 // kolo2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 ///////to jest nowy commit 1111
-#include <iostream>
+
 
 #include<iostream>
 using namespace std;
@@ -12,6 +12,8 @@ void sortowanie(int n, int tab[])
 
     for (int i = 0; i < n; i++)
     {
+		min = i;
+		max = n -i- 1;
         for (int j = i; j < n-i; j++)
         {
             if (tab[i]>tab[max])
